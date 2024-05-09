@@ -27,7 +27,9 @@ export default Vue.extend({
         >
             <div class="flex items-center justify-between gap-2">
                 <SmartLink href="https://github.com/sponsors/andatoshiki" blank @click.native="dismissMessage">
-                    <h3 class="font-medium leading-tight dark:text-white">💖 Sponsor me via GitHub Sponsors!</h3>
+                    <h3 class="font-medium leading-tight dark:text-white">
+                        💖 Consider sponsoring via cryptocurrency!
+                    </h3>
                 </SmartLink>
 
                 <button
@@ -39,7 +41,7 @@ export default Vue.extend({
             </div>
 
             <p class="text-sm light:opacity-50 dark:text-white/50">
-                Sponsoring me and my work just got easier with GitHub Sponsors.
+                Donation is always considered as the best mean of sponsoring to worthy causes and initiatives
                 <SmartLink
                     href="https://github.com/sponsors/andatoshiki"
                     blank
