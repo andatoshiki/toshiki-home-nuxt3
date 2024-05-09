@@ -23,11 +23,15 @@ const handler: Handler = async () => {
 
         // Origin for CORS
         const origin = process.env.NODE_ENV === 'production' ? 'https://toshiki.dev' : 'http://localhost:3000'
-        const allowedOrigins = ['https://toshiki.dev', 'http://localhost:3000', 'https://toshiki-home-nuxt3.netlify.app/']
+        const allowedOrigins = [
+            'https://toshiki.dev',
+            'http://localhost:3000',
+            'https://toshiki-home-nuxt3.netlify.app/'
+        ]
         if (!allowedOrigins.includes(origin)) {
             return {
-            statusCode: 403,
-            body: 'Forbidden'
+                statusCode: 403,
+                body: 'Forbidden'
             }
         }
 

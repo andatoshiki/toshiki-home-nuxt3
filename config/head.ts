@@ -3,7 +3,7 @@ import { NuxtOptionsHead } from '@nuxt/types/config/head'
 /* Define constants */
 const image = 'https://r2.toshiki.dev/image/toshiki-home-nuxt/cfa307e8b18141a09cd2f9533b6fd7c0.png'
 const description =
-    'Young JavaScript developer from Arizona, interested in languages, gaming, and programming, trying to improve his JavaScript skills!'
+    'Former full time INTP & current INTJ  & part time ISTP whom is caffein overdosed hyperboosted by Monster meanwhile an egoistic capitalist that overthinks ;)'
 
 const Head: NuxtOptionsHead = {
     title: 'toshiki.dev',
