@@ -172,7 +172,7 @@ export default Vue.extend({
                             </h3>
 
                             <span
-                                class="text-black/30 dark:text-white/30"
+                                class="text-black/30 dark:text-white/30 break-all"
                                 :class="!account.revealed && 'hover:underline cursor-pointer select-none'"
                                 @click="account.revealed = true"
                             >
