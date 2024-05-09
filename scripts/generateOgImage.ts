@@ -55,7 +55,7 @@ export const generateImage = async ({
           backgroundColor: "#fff",
           borderRadius: 24,
           backgroundImage:
-            "url(https://raw.toshiki.dev/andatoshiki/toshiki-home-nuxt/master/src/static/assets/meta/images/post-background.png)",
+            "url(https://raw.toshiki.dev/andatoshiki/toshiki-home-nuxt3/master/src/static/assets/meta/images/post-background.png)",
         },
         children: {
           type: "div",
