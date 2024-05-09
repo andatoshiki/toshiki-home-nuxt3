@@ -22,7 +22,7 @@ const handler: Handler = async () => {
         ]
 
         // Origin for CORS
-        // const origin = process.env.NODE_ENV === 'production' ? 'https://toshiki.dev' : 'http://localhost:3000'
+        const origin = process.env.NODE_ENV === 'production' ? 'https://toshiki.dev' : 'http://localhost:3000'
 
         // Map track function
         const mapTrack = (track: any): any => {
@@ -68,11 +68,9 @@ const handler: Handler = async () => {
         return {
             statusCode: 200,
             error: false,
-            // headers: {
-            //     'Access-Control-Allow-Origin': origin,
-            //     'Access-Control-Allow-Headers': 'Content-Type',
-            //     'Access-Control-Allow-Methods': 'GET'
-            // },
+            headers: {
+                'access-control-allow-origin': '*'
+            },
             body: JSON.stringify({
                 user: formattedUserInfo,
                 recentTracks: recentTracks?.tracks?.map(mapTrack) || [],
