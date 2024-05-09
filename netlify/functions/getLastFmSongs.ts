@@ -22,7 +22,7 @@ const handler: Handler = async () => {
         ]
 
         // Origin for CORS
-        const origin = process.env.NODE_ENV === 'production' ? 'https://toshiki.dev' : 'http://localhost:*'
+        const origin = process.env.NODE_ENV === 'production' ? 'https://toshiki.dev' : 'http://localhost:3000'
 
         // Map track function
         const mapTrack = (track: any): any => {
