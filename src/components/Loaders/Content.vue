@@ -73,7 +73,8 @@ export default Vue.extend({
         <h1 class="font-semibold text-2xl text-black/90 dark:text-white/90">Oops! The post could not be found!</h1>
 
         <p class="text-black/50 dark:text-white/30">
-            Make sure that the post you are looking for is on my blog and there is no mistake in the address. You can search for the post using the search feature or return to the homepage to access other posts.
+            Make sure that the post you are looking for is on my blog and there is no mistake in the address. You can
+            search for the post using the search feature or return to the homepage to access other posts.
         </p>
 
         <Button icon="IconBack" @click.native="$router.back()">Return home</Button>

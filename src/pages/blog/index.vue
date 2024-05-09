@@ -24,8 +24,7 @@ export default Vue.extend({
     },
     head() {
         const title = "Toshiki's Blog"
-        const description =
-            "Real life stories anecdotes & developmental journeys for embarking your inspirations."
+        const description = 'Real life stories anecdotes & developmental journeys for embarking your inspirations.'
 
         return {
             title: 'Blog',

@@ -58,7 +58,7 @@ export default Vue.extend({
     head() {
         const title = 'Donate'
         const description =
-            'Support our mission and make a difference by contributing to our future developments and researches with a tip with a slight caffeinated boost via monster'
+            'Support our mission and make a difference by contributing to our future developments and researches with a tip with a slight caffeinated boost via monster.'
 
         return {
             title,

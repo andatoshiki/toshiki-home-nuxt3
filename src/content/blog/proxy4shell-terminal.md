@@ -3,10 +3,10 @@ title: Proxies Configuration for Shells & Terminal
 description: This article discusses the configuration of proxies for shells and terminals. It explains the advantages of using proxy servers to bypass network restrictions and surveillance.
 header: https://r2.toshiki.dev/image/toshiki-home-nuxt/403caa171829f3ad60815775d7b1d303.png
 tags:
-  - proxy
-  - shell
-  - bash
-  - terminal
+    - proxy
+    - shell
+    - bash
+    - terminal
 createdAt: 01/11/2023
 ---
 
@@ -22,7 +22,7 @@ Proxies or namely proxy servers are by far one of the most affordable or cost-ef
 <smart-image src="https://r2.toshiki.dev/image/toshiki-home-nuxt/eeabc115bdc05bab860d3173c2c73f78.png" class="w-30 justify-center"></smart-image>
 </p>
 
- while I adopt absolute subjective yet objective perspectives on the individual viewpoints towards the MIIT department of each country those of which applies the internet regulatory services within the national range for avoiding pitfalls on misleading information brought by cross-border influences; meanwhile regardlessly such measures are still facing controversial debates amongst publics that vastly limits the independent freedom rights, though advantages must not be underestimated, still.
+while I adopt absolute subjective yet objective perspectives on the individual viewpoints towards the MIIT department of each country those of which applies the internet regulatory services within the national range for avoiding pitfalls on misleading information brought by cross-border influences; meanwhile regardlessly such measures are still facing controversial debates amongst publics that vastly limits the independent freedom rights, though advantages must not be underestimated, still.
 
 ## 2. The Major Issue
 
@@ -246,4 +246,4 @@ ssh -o ProxyCommand='socat - "PROXY:%h:%p|tcp:myproxy:80"' user@host
 -   https://askubuntu.com/questions/583797/how-to-set-a-proxy-for-terminal
 -   https://zhuanlan.zhihu.com/p/357875811
 -   https://askubuntu.com/questions/158557/setting-proxy-for-apt-from-terminal
-</blog-notification>
+    </blog-notification>
