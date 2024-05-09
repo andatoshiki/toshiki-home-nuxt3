@@ -1,0 +1,15 @@
+# cache
+cache
+
+# built dist
+dist
+
+# scripts folder
+scripts
+
+# lock file
+yarn.lock
+pnpm-lock.yaml
+
+# package file
+package.json

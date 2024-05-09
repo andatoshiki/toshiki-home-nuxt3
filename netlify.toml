@@ -1,0 +1,5 @@
+[[redirects]]
+force = true
+from = "/blog/gonderi/:slug"
+status = 301
+to = "/blog/:slug"

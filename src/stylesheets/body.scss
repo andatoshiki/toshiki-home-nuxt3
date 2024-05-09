@@ -1,0 +1,47 @@
+html,
+body {
+    scroll-behavior: smooth;
+    scroll-padding: 16px;
+    scrollbar-gutter: stable;
+}
+
+// Remove blue highlight from mobile users
+@media screen and (max-width: 1024px) {
+    * {
+        -webkit-tap-highlight-color: transparent;
+    }
+}
+
+// responsible katex style with horizontal scroll on small screen devices
+// fix katex display overflowing on small screen devices with horizontal scrollbar for viewing full formulas
+.katex {
+    font-size: 1.05em;
+    direction: ltr;
+}
+
+.katex-display {
+    overflow: auto hidden;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+
+    &::-webkit-scrollbar {
+        height: 3px;
+    }
+
+    .katex {
+        font-size: 1.21em;
+    }
+}
+
+.katex-error {
+    color: #f00;
+}
+/* katex styles end */
+
+@media (min-width: 768px) and (max-width: 1058px) {
+    .margin {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+    }
+}

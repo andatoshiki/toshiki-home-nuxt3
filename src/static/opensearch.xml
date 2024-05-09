@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+    <ShortName>Toshiki's Blog</ShortName>
+    <Description>The ultimate yet complete nirvana of Toshiki\'s personal all-in-one home-landing page/blog/portfolio website with an entire reconstruction powered by Nuxt3, Vue, Vercel, Cloudflare Workers and Netlifly! This is a derivative fork of eggsy's homepage with custom modification</Description>
+    <InputEncoding>UTF-8</InputEncoding>
+    <Image height="16" width="16" type="image/x-icon">https://toshiki.dev/assets/icons/favicon.ico'</Image>
+    <Url type="text/html" method="get" template="https://toshiki.dev/blog/?q={searchTerms}" />
+</OpenSearchDescription>
