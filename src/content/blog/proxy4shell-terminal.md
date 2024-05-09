@@ -1,7 +1,7 @@
 ---
 title: Proxies Configuration for Shells & Terminal
 description: This article discusses the configuration of proxies for shells and terminals. It explains the advantages of using proxy servers to bypass network restrictions and surveillance.
-header: https://r2.toshiki.dev/image/toshiki-home-nuxt/403caa171829f3ad60815775d7b1d303.png
+header: https://api.toshiki.dev
 tags:
     - proxy
     - shell
