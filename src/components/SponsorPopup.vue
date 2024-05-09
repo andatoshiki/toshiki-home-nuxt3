@@ -42,15 +42,6 @@ export default Vue.extend({
 
             <p class="text-sm light:opacity-50 dark:text-white/50">
                 Donation is always considered as the best mean of sponsoring to worthy causes and initiatives
-                <SmartLink
-                    href="https://github.com/sponsors/andatoshiki"
-                    blank
-                    class="transition-colors border-b border-black/20 hover:border-black/40 dark:hover:border-white/40 dark:border-white/20"
-                    @click.native="dismissMessage"
-                >
-                    Click the title
-                </SmartLink>
-                to see the tier list! Thank you for your support ✨
             </p>
         </div>
     </Transition>
