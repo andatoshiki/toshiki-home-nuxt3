@@ -1,7 +1,7 @@
 import { NuxtOptionsHead } from '@nuxt/types/config/head'
 
 /* Define constants */
-const image = 'https://toshiki.dev/icon.png'
+const image = 'https://r2.toshiki.dev/image/toshiki-home-nuxt/8182c066f3e56974d3c5da0229e18450.jpg'
 const description =
     'Young JavaScript developer from Arizona, interested in languages, gaming, and programming, trying to improve his JavaScript skills!'
 
