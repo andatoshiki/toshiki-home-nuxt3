@@ -45,12 +45,12 @@ export default Vue.extend({
             loading="lazy"
             draggable="false"
             fit="cover"
-            class="object-cover w-full rounded-md"
+            class="object-cover w-full rounded-md flex justify-center mx-auto"
             :class="[imageClass, border && 'border border-black/10 dark:border-white/10']"
             :data-zoomable="zoomable"
         />
 
-        <figcaption v-if="caption" class="text-center">
+        <figcaption v-if="caption" class="text-center justify-center mx-auto">
             {{ caption }}
         </figcaption>
     </figure>
