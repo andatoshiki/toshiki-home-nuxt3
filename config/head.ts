@@ -87,10 +87,18 @@ const Head: NuxtOptionsHead = {
         {
             rel: 'search',
             type: 'application/opensearchdescription+xml',
-            title: "'s Blog",
+            title: "Toshiki's Blog",
             href: 'https://toshiki.dev/opensearch.xml'
         },
-        { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css' }
+        {
+            rel: 'stylesheet',
+            href: 'https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css' },
+        // mastodon profile website verification indicator a tag
+        {
+            rel: 'me',
+            href: 'https://mastodon.social/@andatoshiki',
+            title: 'Mastodon'
+        }
     ],
 
     script: [
