@@ -38,9 +38,7 @@ curl -I google.com
 
 The following screenshot from terminal indicates the the final output of the package availability received without losses on a bare unmasked network environment, which returns `FAIL` in the final connection after a dry run fails 11s after when the TTL expires the connection fails.
 
-<p align="center">
-<smart-image src="https://r2.toshiki.dev/image/toshiki-home-nuxt/f859a1fad077d0cf5e164ffddc93ab08.png" class="w-150"></smart-image>
-</p>
+<smart-figure src="https://r2.toshiki.dev/image/toshiki-home-nuxt/f859a1fad077d0cf5e164ffddc93ab08.png" image-class="w-150"></smart-figure>
 
 The next screenshot from terminal indicates a temporary proxy tunnel is established both in `http` and `https` protocol tunneled through a local proxy gateway at the local systemic IP address at `127.0.0.1` and exposes the proxy server at a mix of socks/https/http protocol port at `7890`, just simply with the traditional `export` method by setting up in the nonce, the command is given as followed.
 
@@ -51,9 +49,7 @@ export https_proxy=$http_proxy
 
 And then we re-enter the same command with `curl` from above; surprisingly, the header responses returned `TTP/1.1 200 OK`, thus the conclusion drawn here is the proxy server we launched was successfully up and running with tunneled access towards foreign sites without restrictions! Hooray!
 
-<p align="center">
-<smart-image src="https://r2.toshiki.dev/image/toshiki-home-nuxt/3ad3da975cb739986c998336d923beed.png" class="w-150" caption="Curl in action with successful response header from Google"></smart-image>
-</p>
+<smart-figure src="https://r2.toshiki.dev/image/toshiki-home-nuxt/3ad3da975cb739986c998336d923beed.png" image-class="w-150" caption="Curl in action with successful response header from Google"></smart-figure>
 
 Since each proxy configuration might varies atop of the user preferred client, not including ShadowRocket, Clash, V2ray or other proprietary softwares that are licensed either behind a paywall to run with; or simply expensive to purchase a subscription; the proxy ports forwarded varies alongside the changes amongst clients. But the overall approach taken into the account still remains the same with the following traditional formats, the local IP of the machine (normally `127.0.0.1`) followed after with the specified ports. In the scenario of the article is referenced as example, I chose Clash (in spite the entire Clash project repository as well as its affiliated forked projects are being taken down by anonymous reasons by either archiving the overall projects or simply shutting down due to possible legal actions or political reasons regarding the country of residency of various developers).
 
@@ -92,9 +88,7 @@ $ source ~/.zshrc
 
 The proxy essentially provides two shortcut command function defined with `proxy_on` and `proxy_off`. he `proxy_on` function sets the environment variables `http_proxy` and `https_proxy` to `http://127.0.0.1:7890`, which is the default proxy port of the traditional clash protocol, **here is where you could replace the IP with other remote proxy servers or ports of other local proxies** .Enabling a global proxy for the current terminal session. Meanwhile the `proxy_off` function unsets (removes) the `http_proxy` and `https_proxy` environment variables, effectively turning off the global proxy for the current terminal session. When any of the both executed, the indicator message will be echoed on the terminal, see the following screenshot in action.
 
-<p align="center">
-<smart-image src="https://r2.toshiki.dev/image/toshiki-home-nuxt/9a1a84d7cb0384488f963f034a95307b.png" class="w-150" caption="Enabling the shell session proxy with script"></smart-image>
-</p>
+<smart-figure src="https://r2.toshiki.dev/image/toshiki-home-nuxt/9a1a84d7cb0384488f963f034a95307b.png" image-class="w-150" caption="Enabling the shell session proxy with script"></smart-figure>
 
 After you reload your shell profile you can test out the scripted command yourself. To test whether the proxy has a successful setup after the proxy has been switched on, run `echo $http_proxy` or `https_proxy` with a dollar sign in front of the alias as an indicator for environmental variable, the third command as shown in the screenshot above, the command will simply print the configured variable value addressed to the specified alias. Contrarily, if your terminal returns the following resultant,
 
@@ -123,9 +117,7 @@ The following is a list of the most common shells with their possible profile fi
 
 Still, the location might still varies, users might have to perform individual research to precisely locate their configuration file location, which is out of my jurisdiction of concerns (it's just evident action of procrastination and laziness, my apologies if none of the ones above fits your demand) `;)`.
 
-<p align="center">
-<img src="https://r2.toshiki.dev/image/toshiki-home-nuxt/605c0a9869e153e6f4cce91abe51f5de.png" class="w-30" align="center">
-</p>
+<smart-figure src="https://r2.toshiki.dev/image/toshiki-home-nuxt/605c0a9869e153e6f4cce91abe51f5de.png" image-class="w-30"></smart-figure>
 
 For Unix-like users, after you have specified your shell as well as your config file name and locations, copy the following code chunk as command and paste it back into your terminal and run to apply permanent changes to the configuration.
 
@@ -157,9 +149,7 @@ To check whether the proxy script has taken its effect to the current session, d
 
 The documentation above are mainly targeted towards macOS & Linux users, to setup local proxy with Windows machines there is a complete different approach if you are more comfortably working with Powershells and CMD, since I disused windows less and less frequently by the time I decided to upgrade my device to macOS; even if I did use Windows my primary choice of developmental environment is still Linux by the native support of [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) with enhanced Ubuntu version in a virtual environment; the following commands are only done from my prior researches, I do not fully guarantee the usability of the commands, please use them at your own risks if any unexpected errors not only including system crashes or other affiliated damages, I do not relate responsibility to any of those presented.
 
-<p align="center">
-<smart-image src="https://r2.toshiki.dev/image/toshiki-home-nuxt/fcd232499dddaef7d3e9909555ab2819.png" class="w-150 rounded-md"></smart-image>
-</p>
+<smart-figure src="https://r2.toshiki.dev/image/toshiki-home-nuxt/fcd232499dddaef7d3e9909555ab2819.png" image-class="w-150"></smart-figure>
 
 Simple concluding, abandon proprietary software, fall in the hug of open source; Linux even if most of the users might feel overwhelming when getting started with the system first `:)`. Alright, enough with off-topic talkings, let's jump right in the process.
 
