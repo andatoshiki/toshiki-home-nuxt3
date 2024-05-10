@@ -26,7 +26,7 @@ export default Vue.extend({
 </script>
 
 <template>
-    <div class="notification flex flex-col md:(items-center flex-row) gap-x-4 gap-y-2" :class="type">
+    <div class="notification flex flex-col md:(items-center flex-row) gap-x-4 gap-y-2 break-all" :class="type">
         <span class="text-xl md:text-lg">{{ getIcon }}</span>
 
         <div>

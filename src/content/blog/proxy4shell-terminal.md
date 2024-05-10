@@ -193,9 +193,7 @@ Before we start, quoting from one of the answer from [AskUbuntu](https://askubun
 
 A terminal provides a command-line interface that allows users to send commands and receive responses from network applications, facilitating communication and control over a network connection. It acts as a mediator between the user and the network applications, enabling the user to send instructions and receive information, but not a proxy client.
 
-<p align="center">
-<img src="https://r2.toshiki.dev/image/toshiki-home-nuxt/acbf5e6cfe64a045af608dece77cf628.png" class="w-40 rounded" align="center">
-</p>
+<smart-figure src="https://r2.toshiki.dev/image/toshiki-home-nuxt/acbf5e6cfe64a045af608dece77cf628.png" image-class="w-30"></smart-figure>
 
 Done with the technical talkings, now let's dive into the actual configuration process of the shell. Other than simply inputting a host IP and a port followed, the following formats are the default configuration for a proxy server with HTTP connection protocol, follow the exact same process as described based on your shell type, modify the fields with the following,
 
