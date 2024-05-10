@@ -197,7 +197,7 @@ export default Vue.extend({
                 </div>
             </article>
 
-            <Disqus
+            <!-- <Disqus
                 v-if="!$config.isDev"
                 :title="post.title"
                 :url="`https://toshiki.dev/blog/${post.slug}`"
@@ -205,7 +205,10 @@ export default Vue.extend({
                 :slug="post.slug"
                 lang="tr"
                 class="mt-10"
-            />
+            /> -->
+
+            <!-- <Waline /> -->
+
 
             <div class="mt-16 space-y-10">
                 <div v-if="getRelatedPosts.length > 0" class="space-y-2">
