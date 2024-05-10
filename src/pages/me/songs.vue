@@ -123,7 +123,7 @@ export default Vue.extend({
             <section id="top-songs">
                 <Title class="mb-4">Top Songs (last 7 days)</Title>
 
-                <div class="grid gap-x-4 gap-y-2 break-all md:grid-cols-2">
+                <div class="overflow-x-scroll grid gap-x-4 gap-y-2 md:grid-cols-2 card-margin">
                     <CardLastFm
                         v-for="song of lastFm.topTracks"
                         :key="song.name"
@@ -155,7 +155,7 @@ export default Vue.extend({
             <section id="recent">
                 <Title class="mb-4">Recent Songs</Title>
 
-                <div class="grid gap-x-4 gap-y-2 md:grid-cols-2">
+                <div class="overflow-x-scroll grid gap-x-4 gap-y-2 md:grid-cols-2">
                     <CardLastFm
                         v-for="song of lastFm.recentTracks"
                         :key="song.name"
