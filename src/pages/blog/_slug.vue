@@ -69,12 +69,8 @@ export default Vue.extend({
                 {
                     title,
                     description,
-                    image,
                     keywords: `${tags}, toshiki, andatoshiki, blog, Anda Toshiki, homepage, portfolio, website, personal, personal website, real life, programming, coding`,
                     url: href,
-                    'og:image': image,
-                    'og:title': title,
-                    'og:description': description
                 },
                 [
                     {
@@ -100,7 +96,31 @@ export default Vue.extend({
                     {
                         name: 'twitter:data2',
                         content: `${this.getReadingTime} minutes`
-                    }
+                    },
+                    {
+                        name: 'twitter:image',
+                        content: image
+                    },
+                    // open graph
+                    {
+                        name: 'og:type',
+                        content: 'website'
+                    },
+                    {
+                        hid: 'og:site_name',
+                        name: 'og:site_name',
+                        content: 'toshiki.dev'
+                    },
+                    {
+                        name: 'og:description',
+                        content: description
+                    },
+                    {
+                        name: 'og:image',
+                        content: image
+                    },
+                    
+                    
                 ]
             )
         }
