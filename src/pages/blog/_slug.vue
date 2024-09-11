@@ -71,7 +71,7 @@ export default Vue.extend({
                     description,
                     image,
                     keywords: `${tags}, toshiki, andatoshiki, blog, Anda Toshiki, homepage, portfolio, website, personal, personal website, real life, programming, coding`,
-                    url: href
+                    url: href,
                     'og:image': image,
                     'og:title': title,
                     'og:description': description
