@@ -69,6 +69,7 @@ export default Vue.extend({
                 {
                     title,
                     description,
+                    image,
                     keywords: `${tags}, toshiki, andatoshiki, blog, Anda Toshiki, homepage, portfolio, website, personal, personal website, real life, programming, coding`,
                     url: href,
                 },
@@ -108,7 +109,7 @@ export default Vue.extend({
                     },
                     {
                         name: 'og:site_name',
-                        content: `toshiki.dev${this.$route?.path}`
+                        content: `toshiki.dev/${this.$route?.path}`
                     },
                     {
                         name: 'og:description',
@@ -118,8 +119,10 @@ export default Vue.extend({
                         name: 'og:image',
                         content: image
                     },
-                    
-                    
+                    {
+                        name: 'og:url',
+                        content: href
+                    }
                 ]
             )
         }
