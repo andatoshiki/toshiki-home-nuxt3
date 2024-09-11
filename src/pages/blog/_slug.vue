@@ -105,7 +105,7 @@ export default Vue.extend({
                     // open graph
                     {
                         name: 'og:type',
-                        content: 'website'
+                        content: 'article'
                     },
                     {
                         name: 'og:site_name',
