@@ -52,7 +52,7 @@ export default Vue.extend({
 
         const tags = getTags?.join(', ') || title
         const href = `https://toshiki.dev${this.$route?.path}`
-        const image = `/og-images/${post.slug}.png`
+        const image = `https://toshiki.dev/og-images/${post.slug}.png`
 
         return {
             bodyAttrs: {
