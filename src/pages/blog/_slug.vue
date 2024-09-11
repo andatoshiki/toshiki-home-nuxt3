@@ -107,9 +107,8 @@ export default Vue.extend({
                         content: 'website'
                     },
                     {
-                        hid: 'og:site_name',
                         name: 'og:site_name',
-                        content: 'toshiki.dev'
+                        content: `toshiki.dev${this.$route?.path}`
                     },
                     {
                         name: 'og:description',
