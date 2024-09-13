@@ -11,7 +11,7 @@ export default Vue.extend({
             const path = this.$route.path
 
             if (path !== '/projects/premid' && path.startsWith('/projects/premid')) return '/projects/premid'
-            else if (this.routeIsBlog && this.$route.params?.slug) return '/blog'
+            else if (this.routeIsBlog && this.$route.params?.slug) return '/'
             else return '/'
         }
     }
@@ -33,11 +33,11 @@ export default Vue.extend({
                     /> -->
                     <!-- class="rounded-md bg-transparent ring-black transition-transform ring-2 ring-opacity-5 sm:transform hover:-rotate-6 flex-shrink-0 h-10 w-10" -->
 
-                    <Transition name="fade" mode="out-in">
+                    <!-- <Transition name="fade" mode="out-in">
                         <span v-if="routeIsBlog" class="text-black/90 text-sm uppercase font-medium dark:text-white/90">
                             Blog
                         </span>
-                    </Transition>
+                    </Transition> -->
                 </SmartLink>
 
                 <div class="flex space-x-2 items-center">
