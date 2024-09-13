@@ -6,7 +6,7 @@ const description =
     'Former full time INTP & current INTJ  & part time ISTP whom is caffein overdosed hyperboosted by Monster meanwhile an egoistic capitalist that overthinks ;)'
 
 const Head: NuxtOptionsHead = {
-    title: 'toshiki.dev',
+    title: 'Toshiki\'s Homepage',
     meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -34,7 +34,7 @@ const Head: NuxtOptionsHead = {
         {
             hid: 'twitter:title',
             name: 'twitter:title',
-            content: 'andatoshiki'
+            content: 'Toshiki\'s Homepage'
         },
         {
             hid: 'twitter:description',
@@ -92,7 +92,8 @@ const Head: NuxtOptionsHead = {
         },
         {
             rel: 'stylesheet',
-            href: 'https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css' },
+            href: 'https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css'
+        },
         // mastodon profile website verification indicator a tag
         {
             rel: 'me',
