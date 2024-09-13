@@ -52,7 +52,7 @@ export default Vue.extend({
 
         const tags = getTags?.join(', ') || title
         const href = `https://toshiki.dev${this.$route?.path}`
-        const image = `https://toshiki.dev/og-images/${post.slug}.png`
+        const image = `/og-images/${post.slug}.png`
 
         return {
             bodyAttrs: {
@@ -71,7 +71,7 @@ export default Vue.extend({
                     description,
                     image,
                     keywords: `${tags}, toshiki, andatoshiki, blog, Anda Toshiki, homepage, portfolio, website, personal, personal website, real life, programming, coding`,
-                    url: href,
+                    url: href
                 },
                 [
                     {
@@ -97,31 +97,6 @@ export default Vue.extend({
                     {
                         name: 'twitter:data2',
                         content: `${this.getReadingTime} minutes`
-                    },
-                    {
-                        name: 'twitter:image',
-                        content: image
-                    },
-                    // open graph
-                    {
-                        name: 'og:type',
-                        content: 'article'
-                    },
-                    {
-                        name: 'og:site_name',
-                        content: `toshiki.dev/${this.$route?.path}`
-                    },
-                    {
-                        name: 'og:description',
-                        content: description
-                    },
-                    {
-                        name: 'og:image',
-                        content: image
-                    },
-                    {
-                        name: 'og:url',
-                        content: href
                     }
                 ]
             )
@@ -233,7 +208,6 @@ export default Vue.extend({
             /> -->
 
             <!-- <Waline /> -->
-
 
             <div class="mt-16 space-y-10">
                 <div v-if="getRelatedPosts.length > 0" class="space-y-2">
