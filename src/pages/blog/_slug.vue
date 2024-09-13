@@ -228,9 +228,9 @@ export default Vue.extend({
 
                 <div class="space-y-2">
                     <!-- continue reading element -->
-                    <h3 class="text-sm dark:text-white/30 text-black/50">Continue reading</h3>
+                    <!-- <h3 class="text-sm dark:text-white/30 text-black/50">Continue reading</h3>
 
-                    <BlogPrevNext :current-slug="post.slug" />
+                    <BlogPrevNext :current-slug="post.slug" /> -->
                 </div>
             </div>
         </div>
