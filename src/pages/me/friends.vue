@@ -34,6 +34,12 @@ export default Vue.extend({
                     name: 'Summit’s Blog',
                     description: 'So who’s Summit?',
                     website: 'https://csmoe.top/'
+                },
+                {
+                    logo: 'https://www.xiaohuo.icu/wp-content/uploads/2024/04/773679.jpg',
+                    name: "Xiaohuo's Blog",
+                    description: '这里是小火，请多关照',
+                    website: 'https://www.xiaohuo.icu/'
                 }
             ]
         }
@@ -73,7 +79,7 @@ export default Vue.extend({
         class="space-y-2 margin"
     >
         <div class="flex flex-col space-y-2">
-            <Title>Add Your Link</Title>
+            <Title>Add Your Site</Title>
             <!-- <p class="text-black/50 dark:text-white/30">Comtemplating</p> -->
             <p>Fundamental information details of my website including 4 major fields of data.</p>
             <pre class="rounded-md h-38 shadow w-full overflow-y-auto language-json scrollbar text-sm space-y-2">
