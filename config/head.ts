@@ -6,7 +6,7 @@ const description =
     'Former full time INTP & current INTJ  & part time ISTP whom is caffein overdosed hyperboosted by Monster meanwhile an egoistic capitalist that overthinks ;)'
 
 const Head: NuxtOptionsHead = {
-    title: 'Toshiki\'s Homepage',
+    title: "Toshiki's Homepage",
     meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -34,7 +34,7 @@ const Head: NuxtOptionsHead = {
         {
             hid: 'twitter:title',
             name: 'twitter:title',
-            content: 'Toshiki\'s Homepage'
+            content: "Toshiki's Homepage"
         },
         {
             hid: 'twitter:description',
@@ -55,7 +55,7 @@ const Head: NuxtOptionsHead = {
         {
             hid: 'og:site_name',
             name: 'og:site_name',
-            content: 'toshiki.dev'
+            content: "Toshiki's Homepage"
         },
         {
             hid: 'og:description',
