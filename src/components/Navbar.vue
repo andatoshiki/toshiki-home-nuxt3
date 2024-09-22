@@ -1,6 +1,6 @@
 <script lang="ts">
 import Vue from 'vue'
-import Logo from './Logo.vue'
+import Logo from './LogoV2.vue'
 
 export default Vue.extend({
     computed: {
@@ -23,8 +23,8 @@ export default Vue.extend({
         <div class="responsive-screen relative">
             <div class="flex items-center gap-6 justify-between">
                 <SmartLink :href="getTargetLink" class="flex-shrink-0 h-10 w-10 flex items-center space-x-4">
-                    <Logo
-                        class="rounded-md bg-transparent transition-transform sm:transform hover:-rotate-6 flex-shrink-0 h-10 w-10"
+                    <LogoV2
+                        class="rounded-md bg-transparent transition-transform sm:transform hover:-rotate-6 flex-shrink-0 h-15l w-15"
                     />
                     <!-- <SmartImage
                         src="/assets/signature-with-merged-stroke.svg"
